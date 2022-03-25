@@ -29,5 +29,5 @@ In a series of cycles, each cell decides its next state based on the current sta
     * If the average of the neighbouring states is 255, the state becomes 0
     * If the average of the neighbouring states is zero, the state becomes 255.
     * Otherwise,
-        new state = current state + neighbourhood average 􀀀 previous state value
+        `new state = current state + neighbourhood average 􀀀 previous state value`
     * If the new state goes over 255, clip to 255. If the new state goes under 0, clip to 0.
